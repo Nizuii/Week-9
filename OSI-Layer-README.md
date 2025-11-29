@@ -26,4 +26,22 @@
 
 ### Layer 7 - Application Layer
 - Your browser sends an HTTP/HTTPS request:
+  
   > google.com
+
+- **Protocols**: HTTP, HTTPS, DNS
+
+### Layer 6 - Presentation Layer
+- Your data gets:
+
+  - Encrypted (TLS/SSL)
+  - Compressed (If needed)
+  - Formatted for transmission.
+
+- This is where HTTPS -> TLS kicks in.
+- **Protocols**: TLS, SSL
+- **Attacks Example**: SSL Stripping
+
+### Layer 5 - Session Layer
+
+-
