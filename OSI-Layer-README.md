@@ -5,6 +5,8 @@
 - These layers represent phases in the establishment of each connection through which the sent packets pass.
 - In this way, the standard was created to trace how a connection is structured and established visually.
 
+## OSI Model Layer
+
 1. **Application Layer (Layer 7)**: Among other things, this layer controls the input and output of data and provides the application functions.
 2. **Presentation Layer (Layer 6)**: The presentation layer's task is to transfer the system-dependent presentation of data into a form independent of the application.
 3. **Session Layer (Layer 5)**: The session layer controls the logical connection between two systems and prevents, for example, connection breakdowns or other problems.
