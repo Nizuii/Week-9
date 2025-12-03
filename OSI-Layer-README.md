@@ -15,6 +15,8 @@
 6. **Data Link Layer (Layer 2)**: The central task of layer 2 is to enable reliable and error-free transmissions on the respective medium. For this purpose, the bitstreams from layer 1 are divided into blocks or frames.
 7. **Physical Layer (Layer 1)**: The transmission techniques used are, for example, electrical signals, optical signals, or electromagnetic waves. Through layer 1, the transmission takes place on wired or wiPhynctions of each OSI layer
 
+## Functions of OSI Layer.
+
 ### 1. Application layer (Layer 1)
 
 - Acts as the interface between user apps (ex: web browsers) & the network.
