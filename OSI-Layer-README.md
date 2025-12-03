@@ -14,3 +14,15 @@
 5. **Network Layer (Layer 3)**: On the networking layer, connections are established in circuit-switched networks, and data packets are forwarded in packet-switched networks. Data is transmitted over the entire network from the sender to the receiver.
 6. **Data Link Layer (Layer 2)**: The central task of layer 2 is to enable reliable and error-free transmissions on the respective medium. For this purpose, the bitstreams from layer 1 are divided into blocks or frames.
 7. **Physical Layer (Layer 1)**: The transmission techniques used are, for example, electrical signals, optical signals, or electromagnetic waves. Through layer 1, the transmission takes place on wired or wireless transmission lines.
+
+## Functions of each OSI layer
+
+### 1. Application layer (Layer 1)
+
+- Acts as the interface between user apps (ex: web browsers) & the network.
+- Provides services like web browsing, file transfer, email. DNS, etc... So applications can send & recieve data.
+
+### 2. Presentation layer (Layer 2)
+
+- Converts data into a format that the recieving application can understand. (For example text, images, video formats).
+- Hnadles encryption / decryption & compression / decompression of data for security & efficency.
