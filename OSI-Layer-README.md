@@ -42,12 +42,12 @@
 - Decides the best path for data to travel across different networks using logical address like IP.
 - Handles routing, logical addressing & splitting / reassembling packets if they are too large.
 
-### Data link layer (Layer 6)
+### 6. Data link layer (Layer 6)
 
 - Package data into frames & adds physical (MAC) address so devices on the same network can identify each other.
 - Detects basic errors in frames & controls which device can use the shared medium at a given time.
 
-### Physical layer (Layer 7)
+### 7. Physical layer (Layer 7)
 
 - Deals with the actual transmission of bits (0's and 1's) over cables, radio waves, fiber etc...
 - Defines things like voltage levels, connectors, transmission speed & how bits are represented on the medium.
