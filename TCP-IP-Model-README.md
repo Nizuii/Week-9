@@ -4,4 +4,4 @@
 
 ## TCP/IP Model Layers
 
-- Link Layer (Layer 1)
+1. **Link Layer (Layer 1)**: 
