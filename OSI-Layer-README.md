@@ -13,9 +13,7 @@
 4. **Transport Layer (Layer 4)**: Layer 4 is used for end-to-end control of the transferred data. The Transport Layer can detect and avoid congestion situations and segment data streams.
 5. **Network Layer (Layer 3)**: On the networking layer, connections are established in circuit-switched networks, and data packets are forwarded in packet-switched networks. Data is transmitted over the entire network from the sender to the receiver.
 6. **Data Link Layer (Layer 2)**: The central task of layer 2 is to enable reliable and error-free transmissions on the respective medium. For this purpose, the bitstreams from layer 1 are divided into blocks or frames.
-7. **Physical Layer (Layer 1)**: The transmission techniques used are, for example, electrical signals, optical signals, or electromagnetic waves. Through layer 1, the transmission takes place on wired or wireless transmission lines.
-
-## Functions of each OSI layer
+7. **Physical Layer (Layer 1)**: The transmission techniques used are, for example, electrical signals, optical signals, or electromagnetic waves. Through layer 1, the transmission takes place on wired or wiPhynctions of each OSI layer
 
 ### 1. Application layer (Layer 1)
 
@@ -25,4 +23,29 @@
 ### 2. Presentation layer (Layer 2)
 
 - Converts data into a format that the recieving application can understand. (For example text, images, video formats).
-- Hnadles encryption / decryption & compression / decompression of data for security & efficency.
+- Handles encryption / decryption & compression / decompression of data for security & efficency.
+
+### 3. Session layer (Layer 3)
+
+- Start, Manages, Terminates **'Conversation'** (Session) between 2 devices or applications.
+- Keeps tracks of who is talking to whom & can add checkpoints so communication can resume if interrupted.
+
+### 4. Transport layer (Layer 4)
+
+- Breaks down data into smaller pieces (Segments) & reassembles them at the other end.
+- Ensures complete & correct delivery using error checking, retransmission & flow control. (eg: TCP/UDP)
+
+### 5. Networking layer (Layer 5)
+
+- Decides the best path for data to travel across different networks using logical address like IP.
+- Handles routing, logical addressing & splitting / reassembling packets if they are too large.
+
+### Data link layer (Layer 6)
+
+- Package data into frames & adds physical (MAC) address so devices on the same network can identify each other.
+- Detects basic errors in frames & controls which device can use the shared medium at a given time.
+
+### Physical layer (Layer 7)
+
+- Deals with the actual transmission of bits (0's and 1's) over cables, radio waves, fiber etc...
+- Defines things like voltage levels, connectors, transmission speed & how bits are represented on the medium.
