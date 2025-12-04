@@ -56,3 +56,12 @@ The goal is to overwhelm the target system by making it soncume its:
 - kernal resources
 
 > When millions of such packets hit per second → system becomes overloaded.
+
+#### Mitigation
+
+Unfortunately there is no technique to stop UDP-Floods but we can combine multiple defensive layer to prevent this.
+
+- Block Unnecessary UDP Ports
+- Disable ICMP “Port Unreachable” Replies
+- Use Cloud-Level DDoS Protection
+- Rate Limiting at Firewall/Router
