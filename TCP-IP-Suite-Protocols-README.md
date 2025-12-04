@@ -66,4 +66,19 @@ Used to end a connection polietly.
   - **Step-3**: Server sends FIN flag when server is ready to close connection.
   - **Step-4**: Client sends ACK when client recieves the FIN flag from server to confirm the connection is now fully closed to both sides. 
  
-  
+### 4. RST (Reset)
+
+Kills the connection immediately.
+
+- Its like **"Stop Everything. Now"**
+- send when an error or unexpected condition occurs.
+
+### 5. URG (Urgent)
+
+Indicates that certain data in packet is urgent.
+
+- Its rarely used now a days.
+- Old-school flag for immediate attention.
+
+## cybersecurity relevance
+
