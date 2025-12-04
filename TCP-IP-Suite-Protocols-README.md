@@ -18,6 +18,4 @@
   1. **Client** ➡️ **Server**: SYN (I want to connect)
   1. **Server** ➡️ **Client**: SYN-ACK (I'm Ready)
   1. **Client** ➡️ **Server**: SYN (Lets go)  
-
-
   > Connection is created and data transmission begins
