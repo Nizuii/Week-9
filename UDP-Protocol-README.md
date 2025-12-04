@@ -47,7 +47,8 @@ The goal is to overwhelm the target system by making it soncume its:
 
 - Check the port
 - Realize nothing is running
-- Respond with an ICMP “Port Unreachable” message  
+- Respond with an ICMP “Port Unreachable” message
+
 **4.** This reply consumes:
 
 - CPU
