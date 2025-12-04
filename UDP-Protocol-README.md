@@ -26,3 +26,5 @@ Anywhere where speed is important than accuracy.
 
 If 1 frame or 1 voice packet is lost user won't notice.
 
+## cybersecurity relevance
+
