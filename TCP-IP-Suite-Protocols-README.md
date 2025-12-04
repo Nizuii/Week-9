@@ -43,4 +43,27 @@ Anything where acuracy matters like:
 ### 1. SYN (Synchronize)
 
 Used to start a connection.
+
 - This is basically the **"Hey I want to connect signal"**
+- Use in the 3-way handshake.
+
+### 2. ACK (Acknowledgment)
+
+Acknowledges recieved data.
+
+- Means **"Yes, I got your data/flag"**.
+- Almost every packet after the handshake has this flag set.
+
+### 3. FIN (Finish)
+
+Used to end a connection polietly.
+
+- This is the **"I'm done sending data"** signal.
+- Leads to a 4-step termination process.
+
+  - **Step-1**: Client sends FIN flag to signal it has no more data to send.
+  - **Step-2**: Server sends ACK flag acknowledging the FIN from the client.
+  - **Step-3**: Server sends FIN flag when server is ready to close connection.
+  - **Step-4**: Client sends ACK when client recieves the FIN flag from server to confirm the connection is now fully closed to both sides. 
+ 
+  
