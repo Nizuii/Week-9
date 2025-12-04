@@ -84,3 +84,4 @@ Indicates that certain data in packet is urgent.
 
 ### 1. SYN Flood Attacks.
 
+<img src="images/syn-flood-attack-ddos-attack-diagram-2.webp">
