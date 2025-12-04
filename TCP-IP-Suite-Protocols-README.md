@@ -31,3 +31,16 @@ Anything where acuracy matters like:
 - SSH
 - Database Communication
 
+## What are TCP Flags
+
+<img src="images/tcp-flags.png">
+
+- **TCP Flags** are single bit indicators inside the TCP header.
+- Each flag is either 0's (off) & 1's (on).
+- When "on", they signal a specific type of operation in the connection cycle.
+- There are 8 main TCP Flags.
+
+### 1. SYN (Synchronize)
+
+Used to start a connection.
+- This is basically the **"Hey I want to connect signal"**
