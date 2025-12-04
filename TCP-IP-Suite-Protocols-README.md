@@ -1,5 +1,7 @@
 # What is TCP
 
+<img src="images/tcp.png">
+
 - **TCP** stands for Transmission Control Protocol.
 - **TCP** works in layer 3 in **TCP/IP** & layer 4 in **OSI** model.
 - **TCP** ensures:  
