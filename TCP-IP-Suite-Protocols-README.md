@@ -97,3 +97,11 @@ In a SYN Flood attack:
   - Slots in the connection table (called the SYN Backlog)
  
 Eventually, the server gets overwhelmed ➡️ legitimate users can’t connect ➡️ DoS
+
+### Mitigation
+
+- Unfortunately there is no technique to stop SYN-Floods but we can combine multiple defensive layer to prevent this.
+
+  1. **SYN-Cookies**: The server doesnt allocate memory immediately. Instead it sends a special SYN-ACK with a cryptographic cookie. Connection is only created when the client response with ACK. This completely eliminates half-open resource exhaustion.
+  2. **Rate limiting**
+  3. **Increase Backlog Queue Size**
