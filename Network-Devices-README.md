@@ -40,4 +40,14 @@ Switches are the backbone of the LAN security.
 
 **Port Security**:
 
-- 
+- Restrict which MAC address can use a port.
+- Prevent rogue devices from connecting.
+
+## Weakness
+
+- MAC flooding attacks can overflow a switch table → forces it to broadcast like a hub.
+- Needs proper configuration; misconfigurations easily weaken security.
+
+# 3. Router
+
+<img src="images/router.webp">
