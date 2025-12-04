@@ -96,4 +96,4 @@ In a SYN Flood attack:
   - CPU
   - Slots in the connection table (called the SYN Backlog)
  
-Eventually, the server gets overwhelmed → legitimate users can’t connect → DoS
+Eventually, the server gets overwhelmed ➡️ legitimate users can’t connect ➡️ DoS
