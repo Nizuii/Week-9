@@ -18,4 +18,16 @@
   1. **Client** ➡️ **Server**: SYN (I want to connect)
   1. **Server** ➡️ **Client**: SYN-ACK (I'm Ready)
   1. **Client** ➡️ **Server**: SYN (Lets go)  
-    > Connection is created and data transmission begins
+
+> Connection is created and data transmission begins
+
+## What is TCP good for:
+
+Anything where acuracy matters like:
+
+- Web browsing (HTTP/HTTPS)
+- File Transfer (FTP, SFTP)
+- Email (SMTP/IMAP)
+- SSH
+- Database Communication
+
