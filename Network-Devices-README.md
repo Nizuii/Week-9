@@ -15,3 +15,29 @@
 
 - Very Insecure
 - Because it broadcasts all traffic to every port, an attacker can easily sniff packets with tools like Wireshark.
+
+# 2. SWITCH - The smartest middleman (Layer 2)
+
+<img src="images/switch.jpg">
+
+- Operates at OSI Layer 2
+- Uses MAC address table to forward frames only to the connected port.
+
+**Functionality**
+
+- MAC Learning: Learn source MAC from the incomming frames and builds a table.
+- Forwarding / Filtering: Forwards based on destination MAC rather than broadcasting.
+- Segmentation: Each port is its own collision domain.
+
+## Security Roles:
+
+Switches are the backbone of the LAN security.
+
+**VLANS**: 
+
+- Seperates sensitive networks. (HR, Servers, IoT devices, Guest WiFi)
+- Limits lateral movements during attacks.
+
+**Port Security**:
+
+- 
