@@ -85,3 +85,15 @@ Indicates that certain data in packet is urgent.
 ### 1. SYN Flood Attacks.
 
 <img src="images/syn-flood-attack-ddos-attack-diagram-2.webp">
+
+In a SYN Flood attack:
+
+- The attacker sends tons of SYN packets to a server but never replies with final ACK.
+- This makes the server to keep waiting.
+- These half-open connection consumes:
+
+  - Memory
+  - CPU
+  - Slots in the connection table (called the SYN Backlog)
+ 
+Eventually, the server gets overwhelmed → legitimate users can’t connect → DoS
