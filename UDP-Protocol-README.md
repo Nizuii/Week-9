@@ -41,9 +41,9 @@ The goal is to overwhelm the target system by making it soncume its:
 
 #### Working Mechanism
 
-**1.** Attacker sends a huge number of UDP packets to the victim.
-**2.** Packets are sent to random ports.
-**3.** The victim machine receives a packet on a port with no application listening, so it must:
+**1.** Attacker sends a huge number of UDP packets to the victim.  
+**2.** Packets are sent to random ports.  
+**3.** The victim machine receives a packet on a port with no application listening, so it must:  
 
 - Check the port
 - Realize nothing is running
