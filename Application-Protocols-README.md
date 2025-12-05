@@ -65,4 +65,4 @@
 - It is used for exchanging email messages between servers.
 - To send a mail the client opens a TCP connection to the SMTP server. The server which is always listening on port 25 initiates the connection as soon as it detects a client.  Once the TCP connection is established, the client sends the email across the connection.
 
-- 
+
